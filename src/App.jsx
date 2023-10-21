@@ -1,11 +1,12 @@
 import "./App.css";
+import image from "./img/image-qr-code.png";
 
 function App() {
   return (
     <main className="flex items-center justify-center h-screen w-screen bg-bgColor">
       <div className="flex flex-col items-center gap-y-6 justify-center bg-cardColor rounded-lg py-5 max-w-xs">
         <img
-          src="../src/assets/images/image-qr-code.png"
+          src={image}
           alt="Imagem do QR Code"
           className="w-11/12 rounded-lg"
         />
